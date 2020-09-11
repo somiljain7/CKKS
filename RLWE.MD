@@ -24,3 +24,13 @@ print bAbA = np.add(bA,eA)%q
 print
 print "Print output\n",bA
 ```
+### ` EXAMPLE_OF_RLWE`: 
+```
+A = [4,1,11,10]
+sA = [6,9,11,11]
+eA =[0,-1,1,1]n=4print A,sA,eAxN_1 = [1] + [0] * (n-1) + [1]print xN_1
+A = np.floor(p.polydiv(A,xN_1)[1])bA = p.polymul(A,sA)%q
+bA = np.floor(p.polydiv(bA,xN_1)[1])bA = p.polyadd(bA,eA)%q
+bA = np.floor(p.polydiv(bA,xN_1)[1])
+print "Print output\n",bA
+```
